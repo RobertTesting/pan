@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:980px){
+	#wrap{
+		width:100%;
+		}
+	article{
+		width:61.22%;
+		padding:0 3.57%;
+		}
+	aside{
+		width:24.48%;
+		}
+	
+	
+	
+	}
+@media screen and (max-width:640px){
+	article{
+		width:94%;
+		padding:0 3%;
+		float:none;
+		margin-bottom:20px;
+		}
+	aside{
+		width:100%;
+		float:none;
+		
+		}
+	nav form input{
+		position:absolute;
+		right:0;
+		top:-40px;
+		width:50px;
+		
+		
+		
+		}
+	nav form input:focus{
+		width:150px;
+		
+		}
+
+	
+	}
+@media screen and (max-width:480px){
+	
+	aside{display:none;}
+	.menu{display:block;}
+	nav ul{display:none;}
+	
+	}
